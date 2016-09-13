@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>calculadora</title>
+</head>
+<body>
+<h1>función calculadora qe permita realizar las operaciones de suma,resta,multiplicacion y division </h1>
+ <form action="funcion_calculadora.php" method="POST">
+	
+	<label>número a operar </label>
+	<input type="text" name="num1" placeholder="ingrese un numero" required=""><br><br>
+	<label>número a operar </label>
+	<input type="text" name="num2" placeholder="ingrese un numero" required=""><br><br>
+	<label>selecione la operacion </label>
+	<select name="evaluar">
+		
+			<option value="suma">sumar</option><br><br>
+				<option value="resta">restar</option><br><br>
+					<option value="multi">multiplicar</option><br><br>
+						<option value="divi">dividir</option><br><br>
+	</select><br><br>
+	<input type="submit" value="ver resultado">
+	
+</body>
+</html>

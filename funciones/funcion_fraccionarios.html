@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>calculadora</title>
+</head>
+<body>
+<h2> función calculador fraccionarios que permita realizar las operaciones de suma,resta,multiplicacion y division de numeros fraccionarios</h2>
+ <form action="funcion_fraccionarios.php" method="POST">
+	
+	<label> ingrese el numerador</label>
+	<input type="text" name="num1" placeholder="digite numerador" required=" ">
+	
+	<input type="text" name="num2" placeholder="digite numerador" required=""><br><br>
+
+		
+	<label> ingrese el denominador </label>
+	<input type="text" name="denom1" placeholder="digite denominador" required="">
+
+	<input type="text" name="denom2" placeholder="digite denominador" required=""><br><br>
+	
+	<label>seleccione la opreción </label>	
+	<select name="evaluar">
+	<option value="suma">sumar</option>
+	<option value="resta">restar</option>
+	<option value="multi">multiplicar</option>
+	<option value="divi">dividir</option>
+	</select>
+
+	<input type="submit" value="ver resultado"><br>
+
+	
+</body>
+</html>
